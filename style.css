@@ -3,6 +3,7 @@
   margin: 0;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
+  transition: all .3s;
 }
 
 body{
@@ -59,6 +60,7 @@ body{
 }
 
 .fact {
+  display: none;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 5px;
@@ -79,4 +81,10 @@ body{
   font-size: 14px;
   color: #50526b;
   line-height: 1.8;
+}
+
+h3 {
+  text-transform: uppercase;
+  text-align: center;
+  color: rgba(255, 0, 0, 0.665);
 }
